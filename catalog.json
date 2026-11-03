@@ -82,6 +82,12 @@
       "description": "Shared ESLint, Stylelint and Prettier setup",
       "install": "npm i -D @openstuff-dev/lint",
       "repo": "openstuff-dev/design"
+    },
+    {
+      "name": "@openstuff-dev/version",
+      "description": "Tells open tabs a new version is live, with a reload prompt and a CLI for CI",
+      "install": "npm i @openstuff-dev/version",
+      "repo": "openstuff-dev/open-version"
     }
   ],
   "packageChains": [
