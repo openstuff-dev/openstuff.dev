@@ -28,6 +28,15 @@
       "preview": "previews/relay.html"
     },
     {
+      "name": "OpenVersion",
+      "url": "https://version.openstuff.dev",
+      "repo": "openstuff-dev/open-version",
+      "icon": "icons/version.svg",
+      "tagline": "Tell open tabs a new version is live.",
+      "description": "CI publishes each release, and every open tab offers a reload, or reloads at a safe moment for a hard release. Roll back or force a refresh from the dashboard.",
+      "preview": "previews/version.html"
+    },
+    {
       "name": "OpenStuff Design",
       "url": "https://design.openstuff.dev",
       "repo": "openstuff-dev/design",
