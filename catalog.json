@@ -1,0 +1,82 @@
+{
+  "projects": [
+    {
+      "name": "OpenPurpose",
+      "url": "https://purpose.openstuff.dev",
+      "repo": "openstuff-dev/open-purpose",
+      "icon": "icons/purpose.svg",
+      "tagline": "Correct your agent once. Every agent remembers.",
+      "description": "Shared, scoped rules for coding agents over MCP. Corrections become learnings you review like a pull request.",
+      "preview": "previews/purpose.html"
+    },
+    {
+      "name": "OpenAnnounce",
+      "url": "https://announce.openstuff.dev",
+      "repo": "openstuff-dev/open-announce",
+      "icon": "icons/announce.svg",
+      "tagline": "One place for every message your systems show.",
+      "description": "News, banners and maintenance notices written once, shown in every web app to the right user groups.",
+      "preview": "previews/announce.html"
+    },
+    {
+      "name": "OpenRelay",
+      "url": "https://relay.openstuff.dev",
+      "repo": "openstuff-dev/open-relay",
+      "icon": "icons/relay.svg",
+      "tagline": "Parcels to a pick-up point near your customers.",
+      "description": "A delivery network of shops, couriers and pick-up points. One QR code per parcel, one scan per hand-off.",
+      "preview": "previews/relay.html"
+    },
+    {
+      "name": "OpenStuff Design",
+      "url": "https://design.openstuff.dev",
+      "repo": "openstuff-dev/design",
+      "icon": "icons/design.svg",
+      "tagline": "The toolkit under all of it.",
+      "description": "Tokens, CSS and Angular components, themed from one colour. It’s why the other sites feel like family.",
+      "preview": "previews/design.html"
+    }
+  ],
+  "packages": [
+    {
+      "name": "@openstuff-dev/tokens",
+      "description": "A light and dark theme, generated from one primary colour",
+      "install": "npm i @openstuff-dev/tokens",
+      "repo": "openstuff-dev/design"
+    },
+    {
+      "name": "@openstuff-dev/ui",
+      "description": "Framework-neutral CSS and native overlay helpers",
+      "install": "npm i @openstuff-dev/ui",
+      "repo": "openstuff-dev/design"
+    },
+    {
+      "name": "@openstuff-dev/ui-angular",
+      "description": "Angular components on top of ui",
+      "install": "npm i @openstuff-dev/ui-angular",
+      "repo": "openstuff-dev/design"
+    },
+    {
+      "name": "@openstuff-dev/create-app",
+      "description": "Starts a new OpenStuff project in one command",
+      "install": "npm create @openstuff-dev/app",
+      "repo": "openstuff-dev/design"
+    },
+    {
+      "name": "@openstuff-dev/nx",
+      "description": "Nx generators, including the preset create-app runs",
+      "install": "npm i -D @openstuff-dev/nx",
+      "repo": "openstuff-dev/design"
+    },
+    {
+      "name": "@openstuff-dev/lint",
+      "description": "Shared ESLint, Stylelint and Prettier setup",
+      "install": "npm i -D @openstuff-dev/lint",
+      "repo": "openstuff-dev/design"
+    }
+  ],
+  "packageChains": [
+    ["@openstuff-dev/tokens", "@openstuff-dev/ui", "@openstuff-dev/ui-angular"],
+    ["@openstuff-dev/create-app", "@openstuff-dev/nx"]
+  ]
+}
