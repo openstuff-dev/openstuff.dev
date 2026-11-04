@@ -37,6 +37,15 @@
       "preview": "previews/version.html"
     },
     {
+      "name": "OpenUsecase",
+      "url": "https://usecase.openstuff.dev",
+      "repo": "openstuff-dev/open-usecase",
+      "icon": "icons/usecase.svg",
+      "tagline": "Use cases agents propose, people approve and tests prove.",
+      "description": "Before it builds, a coding agent writes down the behaviour. You approve it in an inbox, tests carry its ID, and each use case shows whether they pass.",
+      "preview": "previews/usecase.html"
+    },
+    {
       "name": "OpenStuff Design",
       "url": "https://design.openstuff.dev",
       "repo": "openstuff-dev/design",
