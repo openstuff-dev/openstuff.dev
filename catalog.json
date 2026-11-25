@@ -46,6 +46,15 @@
       "preview": "previews/usecase.html"
     },
     {
+      "name": "OpenIcon",
+      "url": "https://icon.openstuff.app",
+      "repo": "openstuff-dev/open-icon",
+      "icon": "icons/icon.svg",
+      "tagline": "Turn your SVGs into one icon font.",
+      "description": "Drop SVGs into a browser editor and export one WOFF2 font. Save a collection to a team to host it through a stable stylesheet link.",
+      "preview": "previews/icon.html"
+    },
+    {
       "name": "OpenStuff Design",
       "url": "https://design.openstuff.dev",
       "repo": "openstuff-dev/design",
