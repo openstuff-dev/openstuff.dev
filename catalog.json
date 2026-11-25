@@ -47,7 +47,7 @@
     },
     {
       "name": "OpenIcon",
-      "url": "https://icon.openstuff.dev",
+      "url": "https://icon.openstuff.app",
       "repo": "openstuff-dev/open-icon",
       "icon": "icons/icon.svg",
       "tagline": "Turn your SVGs into one icon font.",
