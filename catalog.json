@@ -102,10 +102,28 @@
       "repo": "openstuff-dev/design"
     },
     {
+      "name": "@openstuff-dev/server",
+      "description": "Server building blocks shared by OpenStuff apps: guarded fetch, encrypted integration keys and server-wide routes",
+      "install": "npm i @openstuff-dev/server",
+      "repo": "openstuff-dev/design"
+    },
+    {
+      "name": "@openstuff-dev/announce",
+      "description": "Framework-neutral web components and backend signer for OpenAnnounce messages",
+      "install": "npm i @openstuff-dev/announce",
+      "repo": "openstuff-dev/open-announce"
+    },
+    {
       "name": "@openstuff-dev/version",
       "description": "Tells open tabs a new version is live, with a reload prompt and a CLI for CI",
       "install": "npm i @openstuff-dev/version",
       "repo": "openstuff-dev/open-version"
+    },
+    {
+      "name": "@openstuff-dev/usecase",
+      "description": "CLI to upload test reports to OpenUsecase and run its PR check in CI",
+      "install": "npm i -D @openstuff-dev/usecase",
+      "repo": "openstuff-dev/open-usecase"
     }
   ],
   "packageChains": [
